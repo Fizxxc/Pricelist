@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fizzx Verss | Catalog</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Fizzx Verss Catalog</h1>
+    <a href="https://t.me/FzzxVersion">Telegram</a>
+    <a href="https://chat.whatsapp.com/H53wPTBfjLCI6a1KaTdrwe">Whatsapp</a>
+    <nav>
+      <a href="cart.html">
+        <img src="assets/cart-icon.png" alt="Keranjang" class="cart-icon">
+        <span id="cart-count">0</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Fizzx Verss Pricelist</h2>
+      <div class="product-list">
+        <div class="product">
+          <h3>Jasdit</h3>
+          <p>AM</p>
+          <p>Harga: Rp5.000 - 20.000</p>
+          <p>AE</p>
+          <p>Harga: Rp15.000 - 30.000</p>
+          <button onclick="addToCart('Produk 1', 50000)">Tambah ke Keranjang</button>
+        </div>
+        <div class="product">
+          <h3>TOPUP GAME</h3>
+          <p>-ML</p>
+          <p>-FF</p>
+          <p>-CODM</p>
+          <p>-PUBGM</p>
+          <p>Harga: Chat di Tele/Wa untuk liat pricelist TopUp Game!</p>
+          <button onclick="addToCart('Produk 2', 75000)">Tambah ke Keranjang</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Fizzx Verss All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

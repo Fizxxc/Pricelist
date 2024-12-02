@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #edb3e1;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+
+header nav {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: white; /* Warna teks */
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.cart-icon {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#cart-count {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+main {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: white;
+  flex: 1;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#cart {
+  margin-top: 30px;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+}
