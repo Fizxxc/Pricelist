@@ -109,10 +109,10 @@ function checkout() {
     cancelButtonText: "Telegram",
   }).then((result) => {
     if (result.isConfirmed) {
-      const whatsappNumber = "628123456789";
+      const whatsappNumber = "6288294951448";
       window.location.href = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
     } else if (result.dismiss === Swal.DismissReason.cancel) {
-      const telegramUsername = "username_telegram";
+      const telegramUsername = "FizzxDevv";
       window.location.href = `https://t.me/${telegramUsername}?text=${encodedMessage}`;
     }
   });
